@@ -1,0 +1,88 @@
+html{
+  background-color: #EDEDE0 !important;
+}
+
+h1, h2, h3{
+  color: #262730;
+  font-size: 2.5rem;
+  font-family: 'Varela Round', sans-serif;
+  letter-spacing: 3px;
+}
+
+p{
+  color: #262730;
+  font-size: 16px;
+  font-family: 'Cairo', sans-serif;
+}
+
+input[type=text]{
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #262730;
+  background-color: #EDEDE0 !important;
+  width: 5%;
+}
+
+input[type=text]:focus{
+  text-align: center;
+  border: none;
+  border-bottom: 2px solid #262730;
+  outline: none;
+}
+
+.front_headline{
+  text-align: center;
+  margin-top: 3%;
+}
+
+.monthly_income{
+  font-size: 1rem;
+  color: #262730;
+  font-family: 'Cairo', sans-serif;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.budget_numbers{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.fifty{
+  margin-right: 10%;
+  padding: 5%;
+  font-size: 2.5rem;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid #77BA99;
+  border-radius: 50%;
+  background-color: #77BA99;
+}
+
+.thirty{
+  margin-right: 10%;
+  padding: 5%;
+  font-size: 2.5rem;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid #77BA99;
+  border-radius: 50%;
+  background-color: #77BA99;
+}
+
+.twenty{
+  font-size: 2.5rem;
+  padding: 5%;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: bold;
+  color: white;
+  border: 2px solid #77BA99;
+  border-radius: 50%;
+  background-color: #77BA99;
+}
