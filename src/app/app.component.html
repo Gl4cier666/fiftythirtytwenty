@@ -1,9 +1,19 @@
 <h1 class="front_headline">What is your monthly income?</h1>
 <div class="income_input">
-   <input type="text" class="monthly_income">
+   <input type="text" class="monthly_income" (keyup)="calcBudget($event)">
 </div>
+<div class="numberRequired" [innerText]="numberRequired"></div>
 <div class="budget_numbers">
   <div class="fifty">50</div>
   <div class="thirty">30</div>
   <div class="twenty">20</div>
+</div>
+<div class="messages" [style.display]="messageDisplay">
+  <div class="fiftyMessage">${{fifty}} <br>for needs</div>
+  <div class="thirtyMessage">${{thirty}} <br>for play</div>
+  <div class="twentyMessage">${{twenty}} <br>for saving</div>
+</div>
+<div id='footer'>
+  <div class="register">build a personal budget</div>
+  <div class="copyright">Copyright &#169; 2020 Damien Sandoval. All rights reserved.</div>
 </div>

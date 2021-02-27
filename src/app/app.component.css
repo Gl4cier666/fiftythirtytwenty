@@ -20,7 +20,7 @@ input[type=text]{
   border: none;
   border-bottom: 2px solid #262730;
   background-color: #EDEDE0 !important;
-  width: 5%;
+  width: 8%;
 }
 
 input[type=text]:focus{
@@ -48,12 +48,11 @@ input[type=text]:focus{
 .budget_numbers{
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 5%;
 }
 
 .fifty{
-  margin-right: 10%;
   padding: 5%;
   font-size: 2.5rem;
   font-family: 'Varela Round', sans-serif;
@@ -65,7 +64,6 @@ input[type=text]:focus{
 }
 
 .thirty{
-  margin-right: 10%;
   padding: 5%;
   font-size: 2.5rem;
   font-family: 'Varela Round', sans-serif;
@@ -85,4 +83,76 @@ input[type=text]:focus{
   border: 2px solid #77BA99;
   border-radius: 50%;
   background-color: #77BA99;
+}
+
+.messages{
+    color: #262730;
+    font-size: 1.3rem;
+    font-family: 'Cairo', sans-serif;
+    display: flex;
+    flex-grow: 4;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.fiftyMessage{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.thirtyMessage{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.twentyMessage{
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.numberRequired{
+  text-align: center;
+  margin-top: 2%;
+  color: #E65F5C;
+
+}
+
+#footer{
+  position: fixed;
+  margin: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.register {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  -webkit-box-shadow: 0px 3px 4px #666666;
+  -moz-box-shadow: 0px 3px 4px #666666;
+  box-shadow: 0px 3px 4px #666666;
+  font-family: 'Cairo', sans-serif;
+  margin: auto;
+  margin-bottom: 1%;
+  color: #ffffff;
+  background: #77BA99;
+  padding: 0.5% 1% 0.5% 1%;
+  max-width: 30%;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.register:hover {
+  background: #129153;
+  text-decoration: none;
+}
+
+.copyright{
+  text-align: center;
+  font-size: 12px;
+  color: #262730;
+  font-family: 'Cairo', sans-serif;
 }
