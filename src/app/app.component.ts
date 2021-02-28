@@ -12,6 +12,7 @@ export class AppComponent {
   twenty = "20";
   messageDisplay = 'none';
   numberRequired = '';
+  featureMessage = '';
 
   calcBudget(budget:any){
     this.messageDisplay = 'flex';
@@ -26,7 +27,14 @@ export class AppComponent {
       this.thirty = "30";
       this.twenty = "20";
     }
+  }
 
+  noFeatureYet(){
+    if(this.featureMessage == ''){
+      this.featureMessage = 'feature not available yet';
+    }else{
+      this.featureMessage = '';
+    }
   }
 
 }
