@@ -19,7 +19,7 @@ input[type=text]{
   text-align: center;
   border: none;
   border-bottom: 2px solid #262730;
-  background-color: #EDEDE0 !important;
+  background-color: #EDEDE0;
   width: 8%;
 }
 
